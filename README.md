@@ -6,10 +6,10 @@ This project compares forward fill, linear interpolation, natural cubic splines
 and PCHIP for offline reconstruction of missing building-temperature records.
 It evaluates artificially hidden observations against their original readings.
 
-**Status:** English computational package with real-data benchmark evidence,
-paired context sensitivity, 21 passing verification tests and HTML API documentation.
-The written report is supplied separately. Student review, personal AI reflection,
-GitHub publication and presentation remain required.
+**Status:** Published computational repository with real-data benchmark evidence,
+paired context sensitivity, 21 passing local verification tests and HTML API documentation.
+The written report is prepared separately for Moodle submission. Student review,
+personal AI reflection and the presentation remain required.
 
 ## Research question and scope
 
@@ -58,7 +58,7 @@ python reconstruction.py benchmark
 python case_comparison.py --minutes 60 --split development --window-id 0
 python sensitivity_analysis.py
 python -m pytest --junitxml=results/tests.xml
-python -m pdoc reconstruction case_comparison run_project -o docs/html
+python -m pdoc reconstruction case_comparison run_project sensitivity_analysis -o docs/html
 ```
 
 For VS Code, open this folder, select the newly created `.venv` interpreter,
@@ -74,6 +74,7 @@ repository. Colab and editor-specific settings are not required.
 - `results/temperature/pointwise_predictions.csv`: each hidden reference,
   prediction and signed/absolute error.
 - `results/temperature/details/`: specific-case tables and figures.
+- `results/sensitivity/`: paired 2/4/8-node context results and comparison figure.
 - `results/tests.xml`: machine-readable verification report.
 - `docs/html/index.html`: generated source-code documentation.
 
@@ -106,6 +107,7 @@ masks with separate, explicitly documented context continuity rules.
 
 The MIT license covers authored software/documentation only. It does not grant
 rights to the course dataset, course materials or derived measurement records.
-Included real-data results remain subject to the data owner's restrictions;
-confirm permission before making a public repository. No remote publication
-has been performed.
+The repository contains project code and derived experimental results; raw course
+data is excluded. Course data and derived records remain subject to the data
+owner's permissions. See [data/raw/README.md](data/raw/README.md) for authorised
+data access and local placement instructions.
