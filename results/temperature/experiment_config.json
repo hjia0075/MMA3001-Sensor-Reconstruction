@@ -1,0 +1,15 @@
+{
+  "variable": "Temperature",
+  "durations_minutes": [
+    30,
+    60,
+    120
+  ],
+  "seed": 3001,
+  "requested_windows_per_sensor_split_duration": 30,
+  "context_nodes_each_side": 4,
+  "continuity_factor": 1.5,
+  "cubic_boundary_condition": "natural",
+  "runtime_repeats": 5,
+  "interpretation": "offline reconstruction; observed noisy values are reference, not physical truth"
+}

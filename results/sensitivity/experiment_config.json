@@ -1,0 +1,22 @@
+{
+  "context_nodes_each_side": [
+    2,
+    4,
+    8
+  ],
+  "seed": 3002,
+  "gap_minutes": [
+    30,
+    60
+  ],
+  "maximum_windows": 30,
+  "core_continuity_factor": 1.5,
+  "observed_context_continuity_factor": 3,
+  "partitions": [
+    "development",
+    "validation"
+  ],
+  "runtime_repeats": 5,
+  "test_data_used": false,
+  "paired_masks": true
+}

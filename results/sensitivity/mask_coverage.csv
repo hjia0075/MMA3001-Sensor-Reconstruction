@@ -1,0 +1,5 @@
+sensor_id,split,gap_minutes,candidate_windows,selected_windows
+6012002000869,development,30,2401,30
+6012002000869,development,60,1605,30
+6012002000869,validation,30,831,30
+6012002000869,validation,60,590,30

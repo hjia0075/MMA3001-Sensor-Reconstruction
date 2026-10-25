@@ -1,0 +1,14 @@
+{
+  "sensor_id": "6012002000869",
+  "variable": "Temperature",
+  "split": "development",
+  "window_id": 0,
+  "start_utc": "2024-05-21 12:45:33+00:00",
+  "end_exclusive_utc": "2024-05-21 13:45:33+00:00",
+  "gap_minutes": 60,
+  "hidden_points": 6,
+  "context_nodes_each_side": 4,
+  "selection": "First saved window for requested split/duration/sensor; not error-ranked",
+  "error_definition": "prediction minus original observed reading",
+  "interpretation": "Artificially masked original observations, offline reconstruction"
+}

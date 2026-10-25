@@ -1,0 +1,50 @@
+{
+  "source": "5EnvSensor_MayToDec2024_180kRows.csv",
+  "raw_rows": 179447,
+  "malformed_payloads": 0,
+  "missing_value_points": 113380,
+  "invalid_numeric_points": 0,
+  "repeated_identical_points": 1388674,
+  "conflicting_keys_excluded": 0,
+  "source_measurement_start_utc": "2023-05-05 22:42:45+00:00",
+  "source_measurement_end_utc": "2026-04-22 13:12:41+00:00",
+  "study_start_inclusive_utc": "2024-05-01",
+  "study_end_exclusive_utc": "2025-01-01",
+  "screened_points": 0,
+  "study_observations": 64581,
+  "units": {
+    "Battery": [
+      "V"
+    ],
+    "Carbon dioxide": [
+      "ppm"
+    ],
+    "Humidity": [
+      "HR%"
+    ],
+    "Formaldehyde": [
+      "\u00b5g/m3"
+    ],
+    "Pressure": [
+      "mb"
+    ],
+    "Temperature": [
+      "\u00b0C"
+    ],
+    "Light Volatile Organic Compounds": [
+      "ppb"
+    ],
+    "Particulate matter 1": [
+      "\u00b5g/m3"
+    ],
+    "Particulate matter 4": [
+      "\u00b5g/m3"
+    ],
+    "Particulate matter 2.5": [
+      "\u00b5g/m3"
+    ],
+    "Particulate matter 10": [
+      "\u00b5g/m3"
+    ]
+  }
+}
